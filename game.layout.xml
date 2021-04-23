@@ -1,0 +1,49 @@
+<layout>
+	<inside>
+		<vertical>
+			<floating>
+				<pool>
+					<name>global</name>
+				</pool>
+			</floating>
+			<pool>
+				<name>setup</name>
+				<drop>setup_2_players</drop>
+				<drop>setup_3_players</drop>
+				<drop>setup_4_players</drop>
+			</pool>
+			<horizontal name="player-banks"/>
+			<grid>
+				<name>grid</name>
+				<type>6</type>
+				<width>14</width>
+				<height>13</height>
+			</grid>
+		</vertical>
+	</inside>
+	<south>
+		<vertical>
+			<packed>
+				<track direction="horizontal">
+					<name>score</name>
+					<title>Score</title>
+					<size>30</size>
+				</track>
+			</packed>
+			<packed>
+				<track direction="horizontal">
+					<name>moral</name>
+					<title>Moral</title>
+					<size>10</size>
+				</track>
+			</packed>
+			<packed>
+				<track>
+					<name>round</name>
+					<title>Round</title>
+					<size>10</size>
+				</track>
+			</packed>
+		</vertical>
+	</south>
+</layout>
